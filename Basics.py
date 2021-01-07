@@ -79,15 +79,15 @@ value_list = dic.values()
 print(key_list, value_list)
 
 # 4. Set
-set_A = {1, 2, 3, 3, 3, 3}
-set_B = {2, 3, 4, 5, 5}
+set_A = set(1, 2, 3, 3, 3, 3)
+set_B = set(2, 3, 4, 5, 5)
 print(set_A)
 print(set_A | set_B)
 print(set_A & set_B)
 print(set_A - set_B)
 
 # methods
-set = {1, 2}
+set = set(1, 2)
 print(set)
 set.add(3)
 print(set)
